@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{904a913d-c7ec-4ec6-873e-c2566a927a10}">
+		<property name="name">
+			<value>Treble</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e86298ce-547f-4f40-af0b-40e3f6208805}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5e820a11-aba9-46b2-8788-d750c34f5c22}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5e820a11-aba9-46b2-8788-d750c34f5c22}">
+		<property name="minimum">
+			<value>-10</value>
+		</property>
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="initialValue">
+			<value>-10</value>
+		</property>
+	</object>
+</objects>
