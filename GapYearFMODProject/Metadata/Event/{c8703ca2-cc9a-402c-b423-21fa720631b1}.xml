@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c8703ca2-cc9a-402c-b423-21fa720631b1}">
 		<property name="name">
 			<value>CarHonk_Single</value>

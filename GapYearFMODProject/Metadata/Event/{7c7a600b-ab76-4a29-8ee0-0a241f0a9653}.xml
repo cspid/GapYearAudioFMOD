@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7c7a600b-ab76-4a29-8ee0-0a241f0a9653}">
 		<property name="name">
 			<value>CarPhoneVibrate</value>

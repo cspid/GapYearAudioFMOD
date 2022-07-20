@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6fd42cad-aff6-436a-94d5-2b09a887b40d}">
 		<property name="name">
 			<value>RadioAM2Classical</value>
@@ -195,8 +195,8 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{89344c2f-5bff-46c2-9257-5f39fbfd5a1c}</destination>
-			<destination>{81a28f29-da3c-4088-b06b-07cf8bd6551e}</destination>
 			<destination>{8b4c14a3-e7bd-4259-8cc5-1323d33fd149}</destination>
+			<destination>{81a28f29-da3c-4088-b06b-07cf8bd6551e}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{bade97c7-d733-4e3a-b4f1-22978509ca5f}">
@@ -231,20 +231,20 @@
 			<value>3.81469727e-06</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{81a28f29-da3c-4088-b06b-07cf8bd6551e}">
-		<property name="position">
-			<value>-10</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{8b4c14a3-e7bd-4259-8cc5-1323d33fd149}">
 		<property name="position">
 			<value>10</value>
 		</property>
 		<property name="value">
 			<value>10</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{81a28f29-da3c-4088-b06b-07cf8bd6551e}">
+		<property name="position">
+			<value>-10</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 </objects>

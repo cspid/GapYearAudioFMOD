@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{434c92fd-5903-4ad3-bfc1-c8fa98b7ed12}">
 		<property name="name">
 			<value>ApartmentMicroscopeSqueak</value>

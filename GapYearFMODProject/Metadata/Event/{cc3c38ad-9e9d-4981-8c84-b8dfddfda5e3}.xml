@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{cc3c38ad-9e9d-4981-8c84-b8dfddfda5e3}">
 		<property name="name">
 			<value>CarWipers_Fast</value>

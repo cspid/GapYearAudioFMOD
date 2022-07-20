@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b1e87978-efad-4d23-aa82-dc372a24d108}">
 		<property name="name">
 			<value>AirportAmbience</value>
@@ -94,8 +94,8 @@
 	</object>
 	<object class="Timeline" id="{444ab80f-76df-41ee-bb77-449dae031b61}">
 		<relationship name="modules">
-			<destination>{4465bf1b-41ef-42f9-b6b1-b2a40f690a40}</destination>
 			<destination>{fd25d9a9-46f6-4688-8418-aaa19f9003e9}</destination>
+			<destination>{4465bf1b-41ef-42f9-b6b1-b2a40f690a40}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{f70f5af0-3694-43a8-8c12-0b0ae2feef71}</destination>

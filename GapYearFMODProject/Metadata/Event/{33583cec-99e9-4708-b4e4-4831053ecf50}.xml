@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{33583cec-99e9-4708-b4e4-4831053ecf50}">
 		<property name="name">
 			<value>ApartmentPhonePickUp</value>
