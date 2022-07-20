@@ -4,6 +4,9 @@
 		<property name="builtBanksOutputDirectory">
 			<value>.</value>
 		</property>
+		<property name="builtBanksSeparateAssets">
+			<value>true</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{fb164803-ea8c-4fa7-a639-edb8e594b0bd}</destination>
 		</relationship>
