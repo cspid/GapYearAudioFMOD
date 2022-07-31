@@ -158,19 +158,11 @@
 			<value>2000</value>
 		</property>
 		<relationship name="automators">
-			<destination>{8608f9b1-f8d6-4edc-ab24-5e10c42dfa9b}</destination>
 			<destination>{32ed2f56-4e90-4cf7-a714-6edcdcf3cec2}</destination>
+			<destination>{8608f9b1-f8d6-4edc-ab24-5e10c42dfa9b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f450b106-7da9-466f-87d6-5e7d748729ff}" />
-	<object class="Automator" id="{8608f9b1-f8d6-4edc-ab24-5e10c42dfa9b}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>highGain</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{015179c9-a346-4c2e-8aee-26c7500a7142}</destination>
-		</relationship>
-	</object>
 	<object class="Automator" id="{32ed2f56-4e90-4cf7-a714-6edcdcf3cec2}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>lowGain</value>
@@ -179,14 +171,12 @@
 			<destination>{f05cde12-d4b7-414e-8f49-f79d446d4a03}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationCurve" id="{015179c9-a346-4c2e-8aee-26c7500a7142}">
-		<relationship name="parameter">
-			<destination>{5e820a11-aba9-46b2-8788-d750c34f5c22}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{d4b73b0b-291b-4212-8a7a-2c53fe6d50ee}</destination>
-			<destination>{62074aac-d73c-4aba-b08b-13e7623f0cb8}</destination>
-			<destination>{7a22448c-aab0-4e4f-88f5-8ea5134248bb}</destination>
+	<object class="Automator" id="{8608f9b1-f8d6-4edc-ab24-5e10c42dfa9b}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>highGain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{015179c9-a346-4c2e-8aee-26c7500a7142}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{f05cde12-d4b7-414e-8f49-f79d446d4a03}">
@@ -199,29 +189,15 @@
 			<destination>{cc29827a-84b6-4b41-9918-1a82b65f7a8c}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationPoint" id="{d4b73b0b-291b-4212-8a7a-2c53fe6d50ee}">
-		<property name="position">
-			<value>0.06920415224913512</value>
-		</property>
-		<property name="value">
-			<value>3.81469727e-06</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{62074aac-d73c-4aba-b08b-13e7623f0cb8}">
-		<property name="position">
-			<value>10</value>
-		</property>
-		<property name="value">
-			<value>10</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{7a22448c-aab0-4e4f-88f5-8ea5134248bb}">
-		<property name="position">
-			<value>-10</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
+	<object class="AutomationCurve" id="{015179c9-a346-4c2e-8aee-26c7500a7142}">
+		<relationship name="parameter">
+			<destination>{5e820a11-aba9-46b2-8788-d750c34f5c22}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{d4b73b0b-291b-4212-8a7a-2c53fe6d50ee}</destination>
+			<destination>{62074aac-d73c-4aba-b08b-13e7623f0cb8}</destination>
+			<destination>{7a22448c-aab0-4e4f-88f5-8ea5134248bb}</destination>
+		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{681397cc-d419-405a-94a5-6f91687f9fcd}">
 		<property name="position">
@@ -240,6 +216,30 @@
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{cc29827a-84b6-4b41-9918-1a82b65f7a8c}">
+		<property name="position">
+			<value>-10</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{d4b73b0b-291b-4212-8a7a-2c53fe6d50ee}">
+		<property name="position">
+			<value>0.06920415224913512</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{62074aac-d73c-4aba-b08b-13e7623f0cb8}">
+		<property name="position">
+			<value>10</value>
+		</property>
+		<property name="value">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7a22448c-aab0-4e4f-88f5-8ea5134248bb}">
 		<property name="position">
 			<value>-10</value>
 		</property>

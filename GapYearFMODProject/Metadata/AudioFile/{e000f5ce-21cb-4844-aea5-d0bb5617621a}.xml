@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{e000f5ce-21cb-4844-aea5-d0bb5617621a}">
+		<property name="assetPath">
+			<value>Cars Passing By.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>30.288</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5130614e-7224-4f06-9bf3-18a7e4fe069e}</destination>
+		</relationship>
+	</object>
+</objects>

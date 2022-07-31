@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1e58eea6-ef6f-404d-a54d-723e640d0fe7}">
 		<property name="name">
-			<value>ApartmentFootstepsWood</value>
+			<value>ApartmentFootstepsWoodAll</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a0863839-c874-477e-a824-a83812cf414b}</destination>
+			<destination>{7bcb53c2-3ccc-430e-8022-59646a5c2f50}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{9a4349aa-0812-4a5a-bbc5-1755380b2ad4}</destination>
@@ -23,7 +23,7 @@
 			<destination>{63f06969-5b97-4191-b54d-27609a2f7d92}</destination>
 		</relationship>
 		<relationship name="markerTracks">
-			<destination>{2bd89212-28bc-4d2d-a3a1-8db1060e8dfb}</destination>
+			<destination>{6302aabe-e784-44ea-a79e-c2f6c6e1e41f}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{46ad569c-1fa0-4d8b-9fec-d5c661430437}</destination>
@@ -41,9 +41,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{9f4338d0-01fc-4f04-8ad1-44e029133890}">
-		<property name="uiTrackHeight">
-			<value>28</value>
-		</property>
 		<relationship name="mixerGroup">
 			<destination>{361242e1-be65-43c6-ab7c-357c4af9694a}</destination>
 		</relationship>
@@ -60,15 +57,8 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{63f06969-5b97-4191-b54d-27609a2f7d92}" />
-	<object class="MarkerTrack" id="{2bd89212-28bc-4d2d-a3a1-8db1060e8dfb}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
+	<object class="MarkerTrack" id="{6302aabe-e784-44ea-a79e-c2f6c6e1e41f}" />
 	<object class="GroupTrack" id="{46ad569c-1fa0-4d8b-9fec-d5c661430437}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{6a334240-17eb-4d25-9114-ddcff4664af9}</destination>
 		</relationship>
@@ -125,16 +115,16 @@
 	</object>
 	<object class="LoopRegion" id="{d9410f45-9195-4144-88ef-0fb568a546d4}">
 		<property name="position">
-			<value>0</value>
+			<value>1.6000000000000001</value>
 		</property>
 		<property name="length">
-			<value>21.35077097505669</value>
+			<value>0.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{c1e77509-42ec-4c16-bc58-c0ea659dfcbd}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{2bd89212-28bc-4d2d-a3a1-8db1060e8dfb}</destination>
+			<destination>{6302aabe-e784-44ea-a79e-c2f6c6e1e41f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{46ad93d7-edaf-4357-9e21-17b6db717ad5}">

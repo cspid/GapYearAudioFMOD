@@ -185,8 +185,8 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{673ccae0-b7be-46fc-9a95-f0d60a6dfdbd}</destination>
-			<destination>{647dc111-21d3-4dc6-89f4-5a40a176ef05}</destination>
 			<destination>{64dca225-b316-4bc2-a4aa-8d0ec8881d2e}</destination>
+			<destination>{647dc111-21d3-4dc6-89f4-5a40a176ef05}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{24b1e266-078e-4adf-a925-f7e094a3d5ba}">
@@ -194,9 +194,9 @@
 			<destination>{1c0d9f1d-ebd3-499d-8d33-20ebbd1c4436}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{e280ae42-b993-4b3f-a613-7cd974b8bbd7}</destination>
 			<destination>{ec692a24-56a8-4d21-a43c-beeb83405b93}</destination>
 			<destination>{d7934bbd-1ef6-410a-823b-6991cddcd734}</destination>
+			<destination>{e280ae42-b993-4b3f-a613-7cd974b8bbd7}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{673ccae0-b7be-46fc-9a95-f0d60a6dfdbd}">
@@ -207,14 +207,6 @@
 			<value>3.81469727e-06</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{647dc111-21d3-4dc6-89f4-5a40a176ef05}">
-		<property name="position">
-			<value>10</value>
-		</property>
-		<property name="value">
-			<value>10</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{64dca225-b316-4bc2-a4aa-8d0ec8881d2e}">
 		<property name="position">
 			<value>-10</value>
@@ -223,12 +215,12 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{e280ae42-b993-4b3f-a613-7cd974b8bbd7}">
+	<object class="AutomationPoint" id="{647dc111-21d3-4dc6-89f4-5a40a176ef05}">
 		<property name="position">
-			<value>0</value>
+			<value>10</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{ec692a24-56a8-4d21-a43c-beeb83405b93}">
@@ -245,6 +237,14 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e280ae42-b993-4b3f-a613-7cd974b8bbd7}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 </objects>

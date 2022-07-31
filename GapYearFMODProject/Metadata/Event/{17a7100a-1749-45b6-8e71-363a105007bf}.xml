@@ -184,9 +184,9 @@
 			<destination>{5e820a11-aba9-46b2-8788-d750c34f5c22}</destination>
 		</relationship>
 		<relationship name="automationPoints">
+			<destination>{d506c6dd-32c5-4e0f-a821-2d17e56debf2}</destination>
 			<destination>{7dd3a8cc-0880-44e5-9fc6-53cd10f3a1d9}</destination>
 			<destination>{dee7c6ad-c849-41ad-8e09-a382b9a6eeb7}</destination>
-			<destination>{d506c6dd-32c5-4e0f-a821-2d17e56debf2}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{788efbc4-ff9f-47f0-9d01-85938ec54fbe}">
@@ -194,10 +194,18 @@
 			<destination>{1c0d9f1d-ebd3-499d-8d33-20ebbd1c4436}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{e8376d8e-acea-4c2d-a262-2e6dd9ee6294}</destination>
 			<destination>{0edcee48-2b49-4123-bc61-5fcf0fe97bc3}</destination>
+			<destination>{e8376d8e-acea-4c2d-a262-2e6dd9ee6294}</destination>
 			<destination>{78671dc3-4f73-4f1a-9ea5-17bf9bd5dbda}</destination>
 		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{d506c6dd-32c5-4e0f-a821-2d17e56debf2}">
+		<property name="position">
+			<value>10</value>
+		</property>
+		<property name="value">
+			<value>10</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{7dd3a8cc-0880-44e5-9fc6-53cd10f3a1d9}">
 		<property name="position">
@@ -215,12 +223,12 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{d506c6dd-32c5-4e0f-a821-2d17e56debf2}">
+	<object class="AutomationPoint" id="{0edcee48-2b49-4123-bc61-5fcf0fe97bc3}">
 		<property name="position">
-			<value>10</value>
+			<value>-10</value>
 		</property>
 		<property name="value">
-			<value>10</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{e8376d8e-acea-4c2d-a262-2e6dd9ee6294}">
@@ -229,14 +237,6 @@
 		</property>
 		<property name="value">
 			<value>3.81469727e-06</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{0edcee48-2b49-4123-bc61-5fcf0fe97bc3}">
-		<property name="position">
-			<value>-10</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{78671dc3-4f73-4f1a-9ea5-17bf9bd5dbda}">
